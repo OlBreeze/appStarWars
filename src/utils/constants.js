@@ -8,7 +8,6 @@ import friend7 from '../images/friend7.jpg';
 import friend8 from '../images/friend8.jpg';
 import friend9 from '../images/friend9.jpg';
 import friend0 from "../images/main.jpg";
-import mindtrick from "../images/Mindtrick.png";
 export const baseURL = 'https://sw-info-api.herokuapp.com/';
 
 export const haverim = {
@@ -84,39 +83,54 @@ export const haverim = {
 export const characters = Object.keys(haverim);
 // export const navItems = ['home', 'about me', 'star wars', 'contact'];
 export const navItems = [
-    {title:'Home', route: 'home'},
+    {title: 'Star wars', route: 'star_wars'},
+    {title:'Heroes', route: 'heroes'},
     {title: 'About me', route: 'about'},
-    {title: 'Star wars', route: 'stars'},
     {title:'Contact', route: 'contact'}];
 // episode
-
 export const starWarsText = ` __________ S  T  A  R   ____    W  A  R  S _________
 
-                        Scientists from the University of Oakland and the University of Central Florida conducted 
-                        an analysis of all the Star Wars series.
-                        
-                        Scientists claim that almost every character suffers from some kind of mental disorder. 
-                        The authors diagnosed Darth Vader with borderline personality disorder.
-                        
-                        C-3PO is a victim of obsessive-compulsive personality disorder, a condition in which the 
-                        patient is obsessed with intrusive thoughts. Chewbacca has been diagnosed with impulsive 
-                        personality disorder.
+                The Star Wars film series centers around three sets of trilogies, the nine films of which 
+                are collectively referred to as the "Skywalker Saga". The saga was produced non-chronologically, 
+                beginning in media res with the release of the original trilogy between 1977 and 1983. 
+                This was followed by the prequel trilogy, released between 1999 and 2005, and the sequel trilogy,
+                released between 2015 and 2019.
 
-                        Jabba the Hutt lacks empathy and remorse, and his callousness and indifference make him a psychopath.
+                Each trilogy focuses on a generation of the Force-sensitive Skywalker family and their struggle 
+                against the evil Sith lord Palpatine (Darth Sidious). The original trilogy depicts the heroic 
+                development of Luke Skywalker as a Jedi and his fight against Palpatine's Galactic Empire alongside 
+                his sister, Leia. The prequels tell the tragic backstory of their father, Anakin, who is corrupted by 
+                Palpatine and becomes Darth Vader. The sequels follow the conflict between Leia's son, Ben Solo, and 
+                Luke and Leia's protegé, Rey, and their eventual alliance against Palpatine after the fall of the 
+                Empire`;
 
-                        Lando Calrissian is a gambler, obsessed with a pathological passion for gambling, ludomania. 
-                        The arrogant Wilhuff Tarkin, who dreams of unlimited power and wealth, suffers from narcissism.
-
-                        Diagnosing Yoda is not easy; his unusual manner of speaking could be either a symptom of a 
-                        mental disorder or simply part of his image.
-
-                        Queen Amidala is a prime example of perinatal mental disorder. Princess Leia may be diagnosed 
-                        with hysterical psychopathy.
-
-                        Scientists believe that Star Wars could well be used as a visual aid in psychiatry for students.
-                         
-
-                       _____  P r I s i T i O n __ P r o V i s I o N )))`;
+// export const starWarsText = ` __________ S  T  A  R   ____    W  A  R  S _________
+//
+//                         Scientists from the University of Oakland and the University of Central Florida conducted 
+//                         an analysis of all the Star Wars series.
+//                        
+//                         Scientists claim that almost every character suffers from some kind of mental disorder. 
+//                         The authors diagnosed Darth Vader with borderline personality disorder.
+//                        
+//                         C-3PO is a victim of obsessive-compulsive personality disorder, a condition in which the 
+//                         patient is obsessed with intrusive thoughts. Chewbacca has been diagnosed with impulsive 
+//                         personality disorder.
+//
+//                         Jabba the Hutt lacks empathy and remorse, and his callousness and indifference make him a psychopath.
+//
+//                         Lando Calrissian is a gambler, obsessed with a pathological passion for gambling, ludomania. 
+//                         The arrogant Wilhuff Tarkin, who dreams of unlimited power and wealth, suffers from narcissism.
+//
+//                         Diagnosing Yoda is not easy; his unusual manner of speaking could be either a symptom of a 
+//                         mental disorder or simply part of his image.
+//
+//                         Queen Amidala is a prime example of perinatal mental disorder. Princess Leia may be diagnosed 
+//                         with hysterical psychopathy.
+//
+//                         Scientists believe that Star Wars could well be used as a visual aid in psychiatry for students.
+//                         
+//
+//                        _____  P r I s i T i O n __ P r o V i s I o N )))`;
 
 // export const starWarsText = `___ S  T  A  R   ____    W  A  R  S ___
 //                         Ученые из Университета Окленда и из Университета Центральной Флориды провели анализ всех серий «Звездных войн».
