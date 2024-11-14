@@ -3,7 +3,15 @@
     padding: 0;
     background-image: url("sky.jpg");
 }
-
+.pageError{
+    display: flex;
+    flex-direction: row;
+}
+.pageLeft{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .textCont{
     width: 100%;
     text-align: center;
