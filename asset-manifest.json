@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/appStarWars/static/css/main.a7c58fa7.css",
+    "main.css": "/appStarWars/static/css/main.e3cfddb1.css",
     "main.js": "/appStarWars/static/js/main.fd46831b.js",
     "static/media/sky.jpg": "/appStarWars/static/media/sky.25e4c5f570a388eb21a8.jpg",
     "static/media/Mindtrick.png": "/appStarWars/static/media/Mindtrick.85ec710f622f0211b4b6.png",
@@ -15,11 +15,11 @@
     "static/media/friend9.jpg": "/appStarWars/static/media/friend9.645c2415c4156aa1d8bd.jpg",
     "static/media/main.jpg": "/appStarWars/static/media/main.872a6fda7bccfe0dc54d.jpg",
     "index.html": "/appStarWars/index.html",
-    "main.a7c58fa7.css.map": "/appStarWars/static/css/main.a7c58fa7.css.map",
+    "main.e3cfddb1.css.map": "/appStarWars/static/css/main.e3cfddb1.css.map",
     "main.fd46831b.js.map": "/appStarWars/static/js/main.fd46831b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7c58fa7.css",
+    "static/css/main.e3cfddb1.css",
     "static/js/main.fd46831b.js"
   ]
 }

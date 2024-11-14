@@ -2,13 +2,406 @@
 <html lang="en">
 <head>
     <title>Star Wars 404</title>
-    <meta http-equiv="refresh" content="0; url=/appStarWars" />
+<!--    <meta http-equiv="refresh" content="0; url=/appStarWars"/>-->
+    <style>
+        /*setup*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .text .content{
+            width: 100%;
+            text-align: center;
+            /*height: 200px;*/
+            line-height: 50px;
+            font-size: 2.5em;
+            position: absolute;
+            top: 75vh;
+            bottom: 0;
+            margin: auto;
+            display: inline;}
+
+            .text .dash {
+                width: 100%;
+                text-align: center;
+                /*height: 200px;*/
+                line-height: 50px;
+                font-size: 2.5em;
+                position: absolute;
+                top: 75vh;
+                bottom: 0;
+                margin: auto;
+                display: inline-block;
+                height: 3px;
+                width: 20px;
+                background-color: #3498db;
+                animation: blink .5s infinite linear;
+            }
+
+        .pageErrorImg{
+            /*style={{height: "70vh", paddingTop: "2%"}}*/
+            height: 70vh;
+            padding-top: 2%;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            99% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @font-face {
+            font-family: 'Monoton';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Monoton'), local('Monoton-Regular'), url(https://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Iceland';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Iceland'), local('Iceland-Regular'), url(https://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Pacifico';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjafesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'PressStart';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Press Start 2P'), local('PressStart2P-Regular'), url(https://themes.googleusercontent.com/static/fonts/pressstart2p/v2/8Lg6LX8-ntOHUQnvQ0E7o3dD2UuwsmbX3BOp4SL_VwM.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Audiowide';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Audiowide'), local('Audiowide-Regular'), url(https://themes.googleusercontent.com/static/fonts/audiowide/v2/8XtYtNKEyyZh481XVWfVOj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Vampiro One';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Vampiro One'), local('VampiroOne-Regular'), url(https://themes.googleusercontent.com/static/fonts/vampiroone/v3/Ho2Xld8UbQyBA8XLxF1_NYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+        }
+
+        /*body{*/
+        /*    background-color: #222222;*/
+        /*}*/
+        /* ---------------------------------------------*/
+
+        .containerNeon{
+            width:500px;
+            margin:auto;
+        }
+
+        /*neeeeoooon*/
+        p{
+            text-align:center;
+            font-size:5em;
+            margin:20px 0 20px 0;
+        }
+
+        a{
+            text-decoration:none;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+        /* --------------- 1 ---------------------*/
+        p:nth-child(1) a{
+            padding-left: 50px;
+            color:#FFDD1B;
+            font-size:0.8em;
+        }
+        p:nth-child(1) a:hover{
+            color:#ffffff;
+            -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+            -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+            animation: neon3 1.5s ease-in-out infinite alternate;
+        }
+        /* --------------- 2 ---------------------*/
+        p:nth-child(2) {
+            color:#FFDD1B;
+            font-size:1.6em;
+            padding: 0;
+        }
+        /* --------------- 3 ---------------------*/
+        p:nth-child(3) a{
+            font-size:1.4em;
+            color:#228DFF;
+            /*font-family:Iceland;*/
+        }
+        p:nth-child(3) a:hover{
+            color:#ffffff;
+            -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+            -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+            animation: neon2 1.5s ease-in-out infinite alternate;
+        }
+
+        /* --------------- - ---------------------*/
+
+
+        /*glow for webkit*/
+        @-webkit-keyframes neon3 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #FF1177,
+                0 0 70px  #FF1177,
+                0 0 80px  #FF1177,
+                0 0 100px #FF1177,
+                0 0 150px #FF1177;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #FF1177,
+                0 0 35px #FF1177,
+                0 0 40px #FF1177,
+                0 0 50px #FF1177,
+                0 0 75px #FF1177;
+            }
+        }
+
+        @-webkit-keyframes neon2 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #228DFF,
+                0 0 70px  #228DFF,
+                0 0 80px  #228DFF,
+                0 0 100px #228DFF,
+                0 0 150px #228DFF;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #228DFF,
+                0 0 35px #228DFF,
+                0 0 40px #228DFF,
+                0 0 50px #228DFF,
+                0 0 75px #228DFF;
+            }
+        }
+
+        @-webkit-keyframes neon1 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #FFDD1B,
+                0 0 70px  #FFDD1B,
+                0 0 80px  #FFDD1B,
+                0 0 100px #FFDD1B,
+                0 0 150px #FFDD1B;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #FFDD1B,
+                0 0 35px #FFDD1B,
+                0 0 40px #FFDD1B,
+                0 0 50px #FFDD1B,
+                0 0 75px #FFDD1B;
+            }
+        }
+
+        /*glow for mozilla*/
+        @-moz-keyframes neon1 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #FF1177,
+                0 0 70px  #FF1177,
+                0 0 80px  #FF1177,
+                0 0 100px #FF1177,
+                0 0 150px #FF1177;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #FF1177,
+                0 0 35px #FF1177,
+                0 0 40px #FF1177,
+                0 0 50px #FF1177,
+                0 0 75px #FF1177;
+            }
+        }
+
+        @-moz-keyframes neon2 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #228DFF,
+                0 0 70px  #228DFF,
+                0 0 80px  #228DFF,
+                0 0 100px #228DFF,
+                0 0 150px #228DFF;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #228DFF,
+                0 0 35px #228DFF,
+                0 0 40px #228DFF,
+                0 0 50px #228DFF,
+                0 0 75px #228DFF;
+            }
+        }
+
+        @-moz-keyframes neon3 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #FFDD1B,
+                0 0 70px  #FFDD1B,
+                0 0 80px  #FFDD1B,
+                0 0 100px #FFDD1B,
+                0 0 150px #FFDD1B;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #FFDD1B,
+                0 0 35px #FFDD1B,
+                0 0 40px #FFDD1B,
+                0 0 50px #FFDD1B,
+                0 0 75px #FFDD1B;
+            }
+        }
+
+        /*glow*/
+        @keyframes neon1 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #FF1177,
+                0 0 70px  #FF1177,
+                0 0 80px  #FF1177,
+                0 0 100px #FF1177,
+                0 0 150px #FF1177;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #FF1177,
+                0 0 35px #FF1177,
+                0 0 40px #FF1177,
+                0 0 50px #FF1177,
+                0 0 75px #FF1177;
+            }
+        }
+
+        @keyframes neon2 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #228DFF,
+                0 0 70px  #228DFF,
+                0 0 80px  #228DFF,
+                0 0 100px #228DFF,
+                0 0 150px #228DFF;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #228DFF,
+                0 0 35px #228DFF,
+                0 0 40px #228DFF,
+                0 0 50px #228DFF,
+                0 0 75px #228DFF;
+            }
+        }
+
+        @keyframes neon3 {
+            from {
+                text-shadow: 0 0 10px #fff,
+                0 0 20px  #fff,
+                0 0 30px  #fff,
+                0 0 40px  #FFDD1B,
+                0 0 70px  #FFDD1B,
+                0 0 80px  #FFDD1B,
+                0 0 100px #FFDD1B,
+                0 0 150px #FFDD1B;
+            }
+            to {
+                text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #FFDD1B,
+                0 0 35px #FFDD1B,
+                0 0 40px #FFDD1B,
+                0 0 50px #FFDD1B,
+                0 0 75px #FFDD1B;
+            }
+        }
+
+        /*REEEEEEEEEEESPONSIVE*/
+        @media (max-width: 650px) {
+
+            #container{
+                width: 100%;
+            }
+
+            p{
+                font-size:3.5em;
+            }
+        }
+
+    </style>
 </head>
 <body>
-<p>Redirecting...</p>
-<script>
-    // Если мета-тег не сработал, используйте JS для перенаправления
-    window.location.replace('/appStarWars/*');
-</script>
+<div className="pageError d-flex">
+    <div className="col text-center">
+
+        <div class="containerNeon">
+            <p><a href="/">Hello stranger!</a></p>
+            <p>These aren't the droids you're looking for.</p>
+            <p><a href="/"> ~ 404 ~ </a></p>
+        </div>
+
+        <div className="text">
+            <div className="content">
+                {/*Hello stranger.May the Force be with you! «Да пребудет с тобой сила!»*/}
+            </div>
+            <div className="dash"></div>
+        </div>
+    </div>
+
+    <img src="../src/images/Mindtrick.png" className="pageErrorImg" alt="mindtrick"/></div>
+
+
+<!--<script>-->
+<!--    // Если мета-тег не сработал, используйте JS для перенаправления-->
+<!--    window.location.replace('/appStarWars');-->
+<!--</script>-->
 </body>
 </html>
