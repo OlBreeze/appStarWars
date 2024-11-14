@@ -26,7 +26,7 @@ const About = () => {
                 setMainHero(haverim[heroId]);
             // navigate(`${route}/${heroId}`)
         }
-    }, [heroId]);
+    }, [heroId, mainHero, navigate , setMainHero]);
     //----------------------
 
 
