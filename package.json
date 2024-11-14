@@ -1,7 +1,7 @@
 {
   "name": "appstarwars",
   "version": "0.1.0",
-  "homepage": "https://olbreeze.github.io/appstarwars/",
+  "homepage": "https://olbreeze.github.io/appStarWars/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
