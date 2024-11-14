@@ -8,13 +8,13 @@ import {characters, haverim} from "../utils/constants";
 
 const Heroes = () => {
     // --------------------------  our actions  -------------------
-    const {mainHero, setMainHero} = useContext(StarWarsContext);
-    const navigate = useNavigate();
     let {heroId} = useParams(); // позволяет получить параметры из URL.
+    const navigate = useNavigate();
+    const {mainHero, setMainHero} = useContext(StarWarsContext);
+
 
     useEffect(() => {
         if (heroId !== undefined&&!characters.includes(heroId)) {
-        //     setMainHero(characters[0]);
             navigate('/error');
             return;
         }
