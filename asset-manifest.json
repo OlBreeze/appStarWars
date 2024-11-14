@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/appstarwars/static/css/main.6773bcd0.css",
-    "main.js": "/appstarwars/static/js/main.b06f8df6.js",
-    "static/media/sky.jpg": "/appstarwars/static/media/sky.25e4c5f570a388eb21a8.jpg",
-    "static/media/Mindtrick.png": "/appstarwars/static/media/Mindtrick.85ec710f622f0211b4b6.png",
-    "static/media/friend4.jpg": "/appstarwars/static/media/friend4.c86b559a9bbc9d115728.jpg",
-    "static/media/friend5.jpg": "/appstarwars/static/media/friend5.3a27556d9c67abea620e.jpg",
-    "static/media/friend7.jpg": "/appstarwars/static/media/friend7.c8a093047b5017c18622.jpg",
-    "static/media/friend2.jpg": "/appstarwars/static/media/friend2.dc30947628301f933de5.jpg",
-    "static/media/friend6.jpg": "/appstarwars/static/media/friend6.c1a01aeda4f16469af3b.jpg",
-    "static/media/friend8.jpg": "/appstarwars/static/media/friend8.5628d4fb8c1557d119d7.jpg",
-    "static/media/friend3.jpg": "/appstarwars/static/media/friend3.b09a67a415c6640ef387.jpg",
-    "static/media/friend1.jpg": "/appstarwars/static/media/friend1.e34febd231df3a3281ec.jpg",
-    "static/media/friend9.jpg": "/appstarwars/static/media/friend9.645c2415c4156aa1d8bd.jpg",
-    "static/media/main.jpg": "/appstarwars/static/media/main.872a6fda7bccfe0dc54d.jpg",
-    "index.html": "/appstarwars/index.html",
-    "main.6773bcd0.css.map": "/appstarwars/static/css/main.6773bcd0.css.map",
-    "main.b06f8df6.js.map": "/appstarwars/static/js/main.b06f8df6.js.map"
+    "main.css": "/appStarWars/static/css/main.a7c58fa7.css",
+    "main.js": "/appStarWars/static/js/main.9a46f1fa.js",
+    "static/media/sky.jpg": "/appStarWars/static/media/sky.25e4c5f570a388eb21a8.jpg",
+    "static/media/Mindtrick.png": "/appStarWars/static/media/Mindtrick.85ec710f622f0211b4b6.png",
+    "static/media/friend4.jpg": "/appStarWars/static/media/friend4.c86b559a9bbc9d115728.jpg",
+    "static/media/friend5.jpg": "/appStarWars/static/media/friend5.3a27556d9c67abea620e.jpg",
+    "static/media/friend7.jpg": "/appStarWars/static/media/friend7.c8a093047b5017c18622.jpg",
+    "static/media/friend2.jpg": "/appStarWars/static/media/friend2.dc30947628301f933de5.jpg",
+    "static/media/friend6.jpg": "/appStarWars/static/media/friend6.c1a01aeda4f16469af3b.jpg",
+    "static/media/friend8.jpg": "/appStarWars/static/media/friend8.5628d4fb8c1557d119d7.jpg",
+    "static/media/friend3.jpg": "/appStarWars/static/media/friend3.b09a67a415c6640ef387.jpg",
+    "static/media/friend1.jpg": "/appStarWars/static/media/friend1.e34febd231df3a3281ec.jpg",
+    "static/media/friend9.jpg": "/appStarWars/static/media/friend9.645c2415c4156aa1d8bd.jpg",
+    "static/media/main.jpg": "/appStarWars/static/media/main.872a6fda7bccfe0dc54d.jpg",
+    "index.html": "/appStarWars/index.html",
+    "main.a7c58fa7.css.map": "/appStarWars/static/css/main.a7c58fa7.css.map",
+    "main.9a46f1fa.js.map": "/appStarWars/static/js/main.9a46f1fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.6773bcd0.css",
-    "static/js/main.b06f8df6.js"
+    "static/css/main.a7c58fa7.css",
+    "static/js/main.9a46f1fa.js"
   ]
 }
