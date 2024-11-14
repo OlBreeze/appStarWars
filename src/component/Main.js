@@ -27,6 +27,7 @@ const Main = () => {
                     <Route path={`${navItems[3].route}`} element={<Contact/>}>
                     </Route>
                     <Route path={'error'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
+                    <Route path={'/appStarWars/error'} element={<ErrorPage/>}/>
                     <Route path={'heroes/error'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
                     <Route path={'about/error'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
                     <Route path={'*'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
