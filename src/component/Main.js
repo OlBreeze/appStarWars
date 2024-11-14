@@ -29,7 +29,7 @@ const Main = () => {
                     <Route path={'error'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
                     <Route path={'heroes/error'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
                     <Route path={'about/error'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
-                    <Route path={'*'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
+                    <Route path={'/*'} element={<ErrorPage/>}/>  {/*во всех остальных случаях*/}
                 </Routes>
             </div>
     );

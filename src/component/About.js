@@ -16,7 +16,7 @@ const About = () => {
     useEffect(() => {
         if (heroId !== undefined&&!characters.includes(heroId)) {
             //     setMainHero(characters[0]);
-            navigate('error');
+            navigate('/error');
             return;
         }
 

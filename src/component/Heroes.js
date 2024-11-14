@@ -15,7 +15,7 @@ const Heroes = () => {
     useEffect(() => {
         if (heroId !== undefined&&!characters.includes(heroId)) {
         //     setMainHero(characters[0]);
-            navigate('error');
+            navigate('/error');
             return;
         }
 
@@ -25,7 +25,7 @@ const Heroes = () => {
                 setMainHero(haverim[heroId]);
             // navigate(`${route}/${heroId}`)
         }
-    }, [heroId]);
+    }, [heroId, mainHero, navigate , setMainHero]);
     //----------------------
 
     return (
